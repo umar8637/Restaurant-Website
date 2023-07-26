@@ -1,0 +1,110 @@
+body p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body h1 {
+  font-family: roboto;
+  color: #ff6347;
+}
+
+#outerhome {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  background-color: #e98f0f;
+}
+#outerhome p {
+  color: #f5f1f1;
+}
+
+#outeraboutsection {
+  background-color: #b02d2d;
+  color: white;
+  padding: 50px;
+}
+
+#aboutbody {
+  display: flex;
+  align-items: center;
+}
+
+#outerMenu {
+  padding: 30px;
+  background-color: #ffffff;
+  color: black;
+}
+
+.outerChefs {
+  background-color: #e9f4e3;
+  padding: 80px;
+}
+
+.outerReservation {
+  justify-content: center;
+  align-items: center;
+  background-color: #bcbac5;
+  padding: 30px;
+}
+
+.outerReservation form {
+  margin: 130px 0px 10px 30px;
+}
+
+.outercontact {
+  padding: 30px;
+  align-items: center;
+  background-color: #acea8c;
+}
+
+.outerfooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(1, 1, 46);
+  color: white;
+  padding: 30px;
+}
+
+.outerfooter .row h5 i:hover,
+#outerhome .row h5 i:hover {
+  transform: scale(1.5);
+}
+
+.menu-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: transform 0.2s ease;
+  max-width: 230px;
+  margin: 10px;
+}
+
+.menu-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.menu-card h6 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.menu-card p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.carousel-inner .carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.chefcard:hover {
+  transform: scale(1.05);
+}
+
+#outeraboutsection .row .outer img {
+  max-height: 90%;
+}
